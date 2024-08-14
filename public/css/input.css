@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.nav-anchor{
+    @apply m-3 hover:text-slate-400 hover:cursor-pointer hover:font-bold;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @apply border border-gray-300 shadow-lg shadow-gray-500/50 text-center p-[1rem];
+}
+
+.card img{
+    @apply w-[2rem] float-right m-2 pb-2;
+}
+
+.card h6{
+    @apply font-bold text-xs pb-4;
+}
+.card p{
+    @apply pb-4;
+}
+
+.project h1{
+    @apply font-bold text-[1.1rem];
+}
+
+.project{
+    @apply px-8
+}
+
+.project ul{
+    @apply pl-6 text-[1rem];
+}
+
+.recommendation-box{
+    @apply m-4 border border-slate-600 rounded-lg w-[25rem] h-[15rem] shrink-0 overflow-auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.recommendation-box h1{
+    @apply text-[1rem] p-2 italic;
+    display: inline-block;
+    word-wrap: break-word;
+    white-space: normal;
+}

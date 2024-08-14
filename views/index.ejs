@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Judy Essam</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="/display/home.png" type="image/icon type">
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/output.css'>
+    <script src="https://kit.fontawesome.com/d8e6515723.js" crossorigin="anonymous"></script>
+    <script defer src='/scripts/script.js'></script>
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+
+</head>
+<body>
+  
+    <nav id="home" class="flex justify-between bg-indigo-700 px-5 pt-6 pb-3 text-white">
+        <div>
+            <h1 class=" text-2xl pb-1 font-bold">Judy Essam </h1>
+            <h6 class = "text-xs"> <span><i class="text-[10px] fa-solid fa-envelope" style="color: #ffffff;"></i></span> Jdoe@email.com</h6>
+            <h6 class="text-xs"><span><i class=" text-[10px] fa-solid fa-phone" style="color: #ffffff;"></i> </span>   +123456789</h6>
+        </div>
+
+        <div>
+            <a class="nav-anchor">About Me</a>
+            <a class="nav-anchor">Skills</a>
+            <a class="nav-anchor">Projects</a>
+            <a class="nav-anchor">Recommendations</a>
+        </div>
+    </nav>
+
+    <section class="flex justify-center p-[4.75rem]">
+        <img class="w-[15rem]" src="/display/working-woman_6866062.png" >
+        <div>
+            <h1 class="text-indigo-700 font-bold text-[3rem]">
+                Hi, I'm Judy Essam! 👋
+            </h1>
+            <p class="w-[33rem]">I am a 2nd-year Computer Engineer Student from Egypt! I am interested in Software Engineering, Machine Learning, and Everything in Between!!! </p>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="text-indigo-700 font-bold pl-7 pb-4 text-[2rem]">Skills</h1>
+
+        <div class="p-8 grid grid-cols-4 gap-8">
+            
+            <div class="card">
+                <img class="card-img" src="/display/html.png">
+                <h6> HTML </h6>
+                <p> 2 years experience</p>
+            </div>
+        
+            <div class="card">
+                <img class="card-img" src="/display/css-3.png">
+                <h6> CSS </h6>
+                <p> 1.5 years experience</p>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="/display/java-script.png">
+                <h6> Javascript </h6>
+                <p> .5 years experience</p>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="/display/nodejs.png">
+                <h6> Node.JS</h6>
+                <p> .5 years experience</p>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="/display/c-sharp.png">
+                <h6> .NET</h6>
+                <p> .5 years experience</p>
+            </div>
+
+            <!-- <div class="card">
+                <img class="card-img" src="/display/java-script.png">
+                <h6> Javascript </h6>
+                <p> .5 years experience</p>
+            </div> -->
+
+        </div>
+            
+
+    </section>
+
+
+    <section>
+        <h1 class="text-indigo-700 font-bold pl-7  pb-4 text-[2rem]">Projects</h1>
+        <div>
+            <div class="project">
+                <h1 >
+                    Node Voltage Circuits Calculator
+                </h1>
+                <ul class="list-disc">
+                    <li>designed and implemented using vanilla HTML/CSS/Javascript and Express.JS, and Calculatres the value of voltages at each nodes in a DC circuit.</li>
+                </ul>
+               
+            </div>
+            <hr class="mx-[5.75rem] my-4">
+            <div class="project">
+                <h1>
+                    Edu-Potal
+                </h1>
+                <ul class="list-disc">
+                    <li>A C# Windows Form software that acts as a fully-functional educational portal, helping facilitate a 
+                        better teacher-student connectio</li>
+                </ul>
+            </div>
+            <hr class="mx-[5.75rem] my-4">
+            <div class="project pb-4">
+                <h1>
+                    Blog Web-App: Thursday’s Thoughts
+                </h1>
+                <ul class="list-disc">
+                    <li> Fullstack Application that lets the user create, edit, and delete their blogs.
+                    </li>
+                </ul>
+               
+            </div>
+            
+        </div>
+    </section>
+
+
+<section>
+    <h1 class="text-indigo-700 font-bold pl-7  pb-4 text-[2rem]">Recommendations</h1>
+    <section id="container" style="-ms-overflow-style: none;
+  scrollbar-width: none;" class="flex overflow-x-auto gap-2.5 whitespace-nowrap scroll-smooth p-8">
+       
+        
+        
+    </section>
+ </section>
+
+
+
+ <section class="p-12 flex justify-center">
+    <form  id="recommendation-id" action="/" method="post" class="flex flex-col">
+        <label class="py-4 text-[1.5rem] text-left">Leave a Recommendation</label>
+        <input name="name" class="my-2 w-[30rem] border border-slate-500 rounded-sm"  placeholder="Name(Optional)">
+        <textarea name="message" class="my-2 pb-[5rem] w-[30rem] border border-slate-500 rounded-sm" placeholder="Message"> </textarea>
+        <button id="btn" class="px-4 py-2 border border-indigo-700 text-indigo-700 mx-[9rem] my-4 rounded-md ">Submit</button>
+    </form>
+ </section>
+
+
+    <section >
+<a href="#home">
+        <button style="position: relative; left:93%" class="relative left-6">
+            <img style="width:32%" class="w-[32%]" src="/display/btn.png">
+
+        </button></a>
+    </section>
+</body>
+</html>
